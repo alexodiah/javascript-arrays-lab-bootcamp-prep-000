@@ -1,8 +1,8 @@
-var kittens = ['Milo', 'Otis', 'Garfield'] //define your array here
+kittens = ['Milo', 'Otis', 'Garfield'] //define your array here
 
 // Add your functions and code here
 
 function destructivelyAppendKitten (name) {
-  name.unshift('Ralph')
+  name = kittens.unshift('Garfield')
   return name
 }
